@@ -1,0 +1,37 @@
+HDP
+---
+
+
+PASSWORDS
+---------
+
+"knox_master_secret" : "SF_PASSWORD_KNOX",
+"logsearch_admin_password" : "SF_PASSWORD_HDP_LOGSEARCH",
+"metrics_grafana_password" : "SF_PASSWORD_HDP_GRAFANA",
+"users.admin" : "SF_PASSWORD_SMARTSENSE"
+javax.jdo.option.ConnectionPassword" : "SF_PASSWORD_HIVEMETASTORE",
+"javax.jdo.option.ConnectionURL" : "SF_MYSQL_HOSTNAME",
+
+
+"default_password" : "SF_PASSWORD_HDP_AMBARI"   [	Eg:  "default_password" : "admin" ]
+
+
+MYSQL Hostname
+--------------
+SF_MYSQL_HOSTNAME
+
+
+ClusterName
+-----------
+SF_CLUSTERNAME
+
+
+SmartSense
+----------
+"customer.smartsense.id" : "SF_SMARTSENSE_ID"  [	Eg:  smartsense id: A-00024713-C-00117131]
+"customer.notification.email" : "SF_SMARTSENSE_CUST_EMAIL", [Eg: danny.loo@sap.com]
+
+Blueprint
+---------
+
+"blueprint" : "SF_HDP_BLUEPRINT_NAME" [	Eg:  SF_HDP_BLUEPRINT_NAME={$SF_CLUSTERNAME}_v1   Attach v1 with clustername since multiple blueprints can be registered with Ambari    ]
