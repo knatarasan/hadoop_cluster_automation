@@ -1,0 +1,23 @@
+
+HDF
+
+PASSWORDS
+---------
+"metrics_grafana_password" : "SF_PASSWORD_HDF_GRAFANA",
+"logsearch_admin_password" : "SF_PASSWORD_HDF_LOGSEARCH"
+
+"nifi.security.encrypt.configuration.password" : "SF_PASSWORD_HDF_SECURIYTY_ENCRYPT_12CHAR"
+"nifi.sensitive.props.key" : "SF_PASSWORD_HDF_SENSITIVE_PROPS_10CHAR",
+
+
+"default_password" : "SF_PASSWORD_HDF_AMBARI"   [	Eg:  "default_password" : "admin" ]
+
+ClusterName
+-----------
+SF_HDF_CLUSTERNAME=redtailhdf
+
+
+Blueprint
+---------
+
+"blueprint" : "SF_HDF_BLUEPRINT_NAME" [	Eg:  SF_HDP_BLUEPRINT_NAME={$SF__HDF_CLUSTERNAME}_v1   Attach v1 with clustername since multiple blueprints can be registered with Ambari    ]
