@@ -1,5 +1,5 @@
 {
-  "blueprint" : "redtail-bp",
+  "blueprint" : "redtailhdp",
   "default_password" : "admin",
   "host_groups" :[
     {
