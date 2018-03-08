@@ -10,4 +10,4 @@ curl -H "X-Requested-By: ambari" -X POST -u admin:admin http://cent7-hdp-1.field
 
 #Pull the trigger
 
-curl -H "X-Requested-By: ambari" -X POST -u admin:admin http://cent7-hdp-1.field.hortonworks.com:8080/api/v1/clusters/bpcluster -d @HDP_HOSTMAPPING-field.json
+curl -H "X-Requested-By: ambari" -X POST -u admin:admin http://cent7-hdp-1.field.hortonworks.com:8080/api/v1/clusters/ciscohdp -d @HDP_HOSTMAPPING-field.json
